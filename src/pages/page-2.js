@@ -6,6 +6,16 @@ import discord from "../images/discord.png";
 //module Link de gatsby pour les liens entre les pages
 import { Link } from "gatsby"
 
+export function Head() {
+    return (
+        <>
+        <title>Carte de visite Camille - gatsby</title>
+        <meta name="description" content="Carte de visite de Camille Prothin, voir mes réseaux" />
+        <meta name="keywords" content="carte de visite, réseaux" />
+        </>
+    );
+}
+
 export default function Page2() {
   return (
     <div className="body">
